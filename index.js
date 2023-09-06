@@ -1,6 +1,4 @@
-
-
-/* var shirtWidth = 18;
+var shirtWidth = 18;
 var shirtLength = 29;
 var shirtSleeve = 8.7;
 
@@ -57,7 +55,7 @@ if (
     console.log("3XL");
 } else {
     console.log("NA");
-} */
+}
 
 /* function toASCII(string) {
     for (let i = 0; i < string.length; i++) {
