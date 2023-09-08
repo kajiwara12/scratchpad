@@ -1,2 +1,2 @@
 # scratchpad
-Just a space where I am bullshitting around in javascript.
+Just a space where I am messing around in javascript.
