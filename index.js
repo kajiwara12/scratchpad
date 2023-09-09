@@ -1,4 +1,41 @@
-var lines = [
+function fizzBuzzArray(input) {
+    let arr = [];
+    let count = 0;
+
+    for (let i = 0; i < input; i++) {
+        count++;
+        if (count % 3 === 0 && count % 5 === 0) {
+            arr.push("fizzBuzz");
+        } else if (count % 5 === 0) {
+            arr.push("buzz");
+        } else if (count % 3 === 0) {
+            arr.push("fizz");
+        } else {
+            arr.push(count);
+        }
+    }
+    return arr;
+}
+console.log(fizzBuzzArray(15));
+
+/* function returnPyramid(height) {
+    let string = "";
+    let arr = [];
+    for (let i = 0; i <= height; i++) {
+        string += "#";
+        arr.push(string);
+    }
+    return arr;
+}
+console.log(returnPyramid(6)); */
+
+/* function sayHelloToWorld(string){
+    return `Hello World, ${string}`;
+  }
+
+  console.log(sayHelloToWorld('John'));
+ */
+/* var lines = [
     'It\'s me.',
     "Can you hear me?",
     "from the other side",
@@ -8,7 +45,7 @@ for (let i = 0; i < lines.length; i++) {
     lines[i] = "Hello, " + lines[i];
 }
 
-console.log(lines);
+console.log(lines); */
 /* var education = "a Master's degree";
 
 // set the value of this based on a person's education
@@ -64,7 +101,7 @@ console.log(category); */
 }
 console.log(isLastEvenOdd([1,2,3,4,5])); */
 
-var shirtWidth = 18;
+/* var shirtWidth = 18;
 var shirtLength = 29;
 var shirtSleeve = 8.7;
 
@@ -113,15 +150,11 @@ if (
     shirtSleeve < 10.13
 ) {
     console.log("2XL");
-} else if (
-    shirtWidth === 28 &&
-    shirtLength === 34 &&
-    shirtSleeve === 10.13
-) {
+} else if (shirtWidth === 28 && shirtLength === 34 && shirtSleeve === 10.13) {
     console.log("3XL");
 } else {
     console.log("NA");
-}
+} */
 
 /* function toASCII(string) {
     for (let i = 0; i < string.length; i++) {
